@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>To do list</title>
+</head>
+<body>
+    
+    <div class="  mb-5 flex flex-col item-center  text-center bg-[url('https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png')] w-full h-screen">
+        <div class="py-7 bg-gradient-to-r from-sky-500 to-indigo-500">
+            <h1 class="text-5xl my-7 font-medium text-white">To do List <span> <i class="pl-5  fa-solid fa-bars-staggered"></i></span> </h1>
+            <p class="count text-xl"> No task added </p>
+        </div>
+        
+
+        <!-- 1. Type text for input here -->
+        <form action="" id="itemForm" class="mt-16 flex flex-col items-center">
+            
+            <div id="one" class="flex  gap-2 w-4/6 ">
+                <input type="text" id="itemInput" class="border border-blue-300 rounded-xl w-full h-11" placeholder="Add your task list here">
+                    
+                <button class="bg-blue-500 border rounded-full w-12 h-11 hover:font-bold hover:bg-blue-700  " id="addItems" type="submit"> <i class="text-white fa-solid fa-plus"></i> </button>
+            </div>
+        </form>
+
+            <!-- 2. Select items from the list-->
+            <div class="item-container w-3/6 mx-auto ">
+                <div class="bg-blue-600 text-white rounded-md border border-b-blue-500 mt-8 my-4 flex justify-between px-5 text-md font-bold hover:bg-blue-700">
+                    <p>No.</p>
+                    <p>Task List</p>
+                    <p>Edit Task</p>
+                </div>
+                <div class="item-list mt-5">
+                    
+                    <!-- 
+                    To do items will be added here automatically
+                    -->
+
+                    
+                </div>
+            
+            
+            </div>
+           
+            
+    </div>
+
+
+
+
+    <script src="/style.js"></script>
+</body>
+
+<footer class=" item-center flex justify-center bg-gradient-to-r from-sky-500 to-indigo-500 text-white py-2">
+    <p>Copyright @ rakibul.khan.hasan@gmail.com - ID-20240815000158</p>
+</footer>
+
+</html>
